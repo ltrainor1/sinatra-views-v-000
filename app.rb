@@ -8,6 +8,6 @@ class App < Sinatra::Base
 
 	 get "/info" do
 		 erb :info
-		 status 200 
+		 status 200
 	 end
 end
