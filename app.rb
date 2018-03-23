@@ -7,7 +7,7 @@ class App < Sinatra::Base
 	 end
 
 	 get "/info" do
+		 erb.status 200 
 		 erb :info
-		 halt 200 
 	 end
 end
